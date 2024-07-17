@@ -1,0 +1,6 @@
+settings.py
+dq.sqlite3
+node_modules
+.lockb
+.lock
+.csv
