@@ -2,7 +2,7 @@
 
 ## STILL IN PROGRESS
 I used a dataset from Kaggle with information from __ movies and __ users.
-![Dataset](https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system)
+[Dataset](https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system)
 I used Django to store the information in a sqlite file and Vue.js as a frontend for a user to easily select movies.
 In my intro to ML class, we discussed Collaborative Filtering methods and I love film so I thought it would be a good project to make a recommender system.
 Just like with Netflix, you must select several movies you like and in my case rate them on a scale of 5 to make prediction easier.
