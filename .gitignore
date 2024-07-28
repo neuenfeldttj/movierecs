@@ -1,6 +1,8 @@
 settings.py
 dq.sqlite3
 node_modules
+__pycache__
 .lockb
 .lock
 .csv
+.vscode

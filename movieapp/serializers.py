@@ -23,10 +23,13 @@ class UserMovieRatingSerializer(serializers.Serializer):
         user, _ = User.objects.get_or_create(user_id=-1)
         
         # Create a new UserMovieRating instance
-        user_movie_rating = UserMovieRating.objects.create(
+        user_movie_rating = UserMovieRating.objects.get_or_create(
             user=user,
             movie=movie,
             rating=validated_data['rating']
         )
         
         return user_movie_rating
+    
+class PredictMovieSerializer(serializers.Serializer):
+    title = serializers.CharField()
